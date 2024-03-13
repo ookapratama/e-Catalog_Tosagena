@@ -7,16 +7,20 @@
     },
     "routes": [
         {
-            "src": "/build/(.*)",
-            "dest": "/public/build/"
+            "src": "/css/(.*)",
+            "dest": "/public/css/"
         },
         {
-            "src": "/resources/(.*)",
-            "dest": "/public/resources/"
+            "src": "/images/(.*)",
+            "dest": "/public/images/"
         },
         {
-            "src": "/favicon/(.*)",
-            "dest": "/public/favicon/"
+            "src": "/js/(.*)",
+            "dest": "/public/js/"
+        },
+        {
+            "src": "/plugins/(.*)",
+            "dest": "/public/plugins/"
         },
         {
             "src": "/(.*)",
